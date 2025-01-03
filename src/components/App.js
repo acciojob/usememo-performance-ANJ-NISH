@@ -14,11 +14,11 @@ const App = () => {
     let statusarr;
     if(i%2!==0)
     {
-      statusarr=[`To do ${i}`,true];
+      statusarr=[`Todo ${i}`,true];
     }
     else
     {
-      statusarr=[`To do ${i}`,false];
+      statusarr=[`Todo ${i}`,false];
     }
     initialList.push(statusarr);
   }
